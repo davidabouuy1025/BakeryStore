@@ -1,0 +1,163 @@
+Bakery Store Website Assignment 🥐🎂
+Objective:
+Create a fully functional Bakery Store Website using HTML, CSS, and JavaScript. The website should have multiple pages, interactive features, and a polished design. This project will help you practice structuring web pages, styling with CSS, and adding interactive elements using JavaScript.
+
+📌 Project Requirements:
+1️⃣ Homepage (index.html)
+This is the main landing page of the bakery website. It should include:
+
+✅ Navigation Bar
+
+Links to Home, Menu, Contact, and About Us (Internal Links).
+
+Styled with CSS (background color, hover effects).
+
+✅ Hero Section
+
+A large banner image showcasing the bakery.
+
+A welcome headline and a short description about the bakery.
+
+A "Learn More" button, which scrolls down to the About Us section (using JavaScript).
+
+✅ About Us Section
+
+A brief history of the bakery.
+
+A few images of the shop and team.
+
+✅ Special Offer Section
+
+Displays a random daily special (e.g., “20% off Chocolate Cake today!”) using JavaScript.
+
+✅ Call-to-Action (CTA)
+
+A button saying "Visit Our Menu", which takes users to the Menu page.
+
+2️⃣ Menu Page (menu.html)
+The menu page should display available bakery items in an organized layout.
+
+✅ Grid Layout of Menu Items
+
+Use CSS Grid or Flexbox to arrange items neatly.
+
+Each item should have:
+
+An image of the item (e.g., a cupcake, croissant, bread).
+
+A name and a brief description.
+
+A price.
+
+✅ Favorite Feature (JavaScript)
+
+Clicking on an item will toggle a favorite heart ❤️ (changes color when selected).
+
+Use JavaScript to store favorite items in local storage so they remain selected even if the page is refreshed.
+
+✅ Filter/Search Option (JavaScript)
+
+A search bar at the top to filter items based on names (e.g., searching “cake” only shows cake-related items).
+
+A button to show "Only Favorites" items.
+
+3️⃣ Contact Page (contact.html)
+This page will allow customers to contact the bakery.
+
+✅ Contact Form
+
+Fields: Name, Email, Phone, and Message
+
+The form should be styled properly with padding and borders.
+
+The Submit button should be styled and interactive.
+
+✅ Form Validation (JavaScript)
+
+Ensure that all fields are filled out before submission.
+
+Show an error message if any field is empty.
+
+Validate that the email is in the correct format.
+
+Display a success message when the form is submitted successfully.
+
+✅ Google Maps Integration (Bonus)
+
+Embed a Google Map showing the bakery’s location.
+
+4️⃣ CSS Styling (style.css)
+The website should have a consistent and appealing design using an external CSS file.
+
+✅ Color Scheme & Fonts
+
+Use warm colors like beige, brown, and cream to match the bakery theme.
+
+Use Google Fonts (e.g., "Poppins" or "Cursive") for a bakery-like feel.
+
+✅ Navigation Bar Styling
+
+Background color
+
+Hover effects on links
+
+✅ Responsive Design
+
+The website should look good on mobile, tablet, and desktop.
+
+Use media queries to adjust layout for different screen sizes.
+
+✅ Hover Effects
+
+Menu items should zoom in slightly on hover.
+
+Buttons should have a slight color change when hovered.
+
+5️⃣ JavaScript (script.js)
+Add interactivity to the website using JavaScript.
+
+✅ Welcome Alert on Homepage
+
+When the page loads, show a greeting message (e.g., “Welcome to Delicious Bakery! 🍰”).
+
+✅ Smooth Scrolling for "Learn More" Button
+
+Clicking the button smoothly scrolls down to the About Us section.
+
+✅ Random Daily Special
+
+Use JavaScript to display a different special offer each time the page loads.
+
+✅ Favorite Items Feature
+
+Clicking the heart ❤️ on a menu item toggles its favorite status.
+
+Save favorite items to local storage so they persist after a page refresh.
+
+✅ Search & Filter Functionality
+
+The search bar dynamically filters menu items based on the user’s input.
+
+The "Only Favorites" button filters and shows only favorite items.
+
+✅ Form Validation
+
+Ensure all fields are filled correctly before submission.
+
+Show error messages if there are missing fields.
+
+🎯 Bonus Features (Optional)
+🔥 Dark Mode Toggle: Let users switch between light and dark mode.
+🔥 Image Slider: Add a slideshow of best-selling items on the homepage.
+🔥 Cart System (Basic): Add a cart where users can "add items" (without checkout).
+🔥 Animations: Use CSS animations or GSAP for smooth transitions.
+
+/BakeryWebsite  
+   ├── index.html  
+   ├── menu.html  
+   ├── contact.html  
+   ├── style.css  
+   ├── script.js  
+   ├── images/ (Store images for menu and homepage)  
+   └── README.md (Explain how the website works)  
+
