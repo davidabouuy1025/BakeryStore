@@ -1,9 +1,15 @@
 *{
-    background-color: antiquewhite;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150%;
+    font-size: 120%;
+}
+
+.panel-header{
+    text-align: center;
 }
 
 .navi-bar{
     background-color: beige;
+    margin: 0%;
+    align-content: center;
 }
